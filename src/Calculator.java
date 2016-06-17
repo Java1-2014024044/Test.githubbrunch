@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class Calculator extends JFrame implements ActionListener {
+public abstract class Calculator extends JFrame implements ActionListener {
 	
 	private JPanel panel;
 	private JTextField display;
