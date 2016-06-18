@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class Calculator extends JFrame implements ActionListener {
+public abstract class Calculator extends JFrame implements ActionListener {
 	
 	private JPanel panel;
 	private JTextField display;
@@ -17,7 +17,7 @@ public class Calculator extends JFrame implements ActionListener {
 			"7", "8", "9", "/", "sqrt" , "4" , "5", "6", "x", "%" , "1",
 			"2", "3", "-", "1/x", "0", "-/+", ".", "+", "=", };
 	
-	private double result =0;
+	private double result =00;
 	private String operator = "=";
 	private boolean startOfNumber = true;
 	
